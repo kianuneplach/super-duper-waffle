@@ -1,0 +1,37 @@
+
+.yellow {
+    background-color: yellow;
+    opacity: 0.5;
+    height: 350px;
+    width: 450px;
+    margin: 0 auto;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+
+}
+
+.zed, .zed2, .zed3 {
+    position: relative;
+}
+
+.zed {
+    z-index: 2;
+}
+
+.zed2 {
+    z-index: 1;
+    top: 70px;
+}
+
+.zed3 {
+    top: 70px;
+    padding-bottom: 70px;
+}
+
+li a {
+    color: grey;
+}
+
+.headline {
+    max-width: 300px;
+}
